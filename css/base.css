@@ -1,4 +1,6 @@
 /* Shared prototype layout — phone shell, screens, CTAs · 4pt grid (Toss TDS tone) */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+
 :root {
   /* Color */
   --blue: #3182F6;
@@ -33,6 +35,7 @@
   --radius-badge: 6px;
 
   /* Type */
+  --font-sans: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif;
   --text-title: 22px;
   --text-nav: 17px;
   --text-body: 17px;
@@ -49,7 +52,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Pretendard', 'Apple SD Gothic Neo', sans-serif;
+  font-family: var(--font-sans);
   background: #e5e8eb;
   display: flex;
   justify-content: center;
