@@ -1,7 +1,9 @@
-# 히트맵 · 슬롯 경우의 수
+# 가능한 시간 · 슬롯 경우의 수
 
-주최자 히트맵(`merge.html` screen 2)과 일정 겹쳐보기(screen 6)에서 **조건 조합 → 표시** 규칙입니다.  
-구현: `js/mock-data.js` · `classifyHeatSlot` · `heatDisplayPills`
+> UI 이름: **가능한 시간** (참여율 높은 시간) · **일정 겹쳐보기**  
+> (`merge.html` screen 2 · screen 6 · 구현: `js/mock-data.js`)
+
+6명 일정을 겹쳐 놓으면 **조건 조합 → 화면 표시** 규칙이 필요합니다. 아래는 그 경우의 수입니다.
 
 ---
 
