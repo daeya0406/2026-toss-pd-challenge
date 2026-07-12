@@ -1,3 +1,5 @@
+<img width="471" height="907" alt="Kapture 2026-07-12 at 17 26 00" src="https://github.com/user-attachments/assets/c0c4dc98-ff5b-4d57-9f5d-fb3fe6432238" />
+
 # 일정 맞추기 — 토스 프로덕트 디자이너 챌린지 2026
 
 6명 회의 일정을 **겹쳐 보고** 모두 괜찮은 시간을 찾는 모바일 프로토타입입니다.
