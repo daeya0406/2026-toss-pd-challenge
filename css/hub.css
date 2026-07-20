@@ -75,23 +75,24 @@ body.proto-hub {
 
 /* Recommended path */
 .path-card {
-  background: linear-gradient(135deg, #3182F6 0%, #1B64DA 100%);
+  background: var(--white);
   border-radius: 20px;
   padding: 28px 28px 24px;
-  color: #fff;
+  color: var(--grey-900);
   margin-bottom: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .path-card h2 {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 6px;
-  color: #fff;
+  color: var(--grey-900);
 }
 
 .path-card p {
   font-size: 14px;
-  opacity: 0.9;
+  color: var(--grey-700);
   margin-bottom: 20px;
   line-height: 1.5;
 }
@@ -107,13 +108,14 @@ body.proto-hub {
 }
 
 .path-steps .step {
-  background: rgba(255, 255, 255, 0.18);
+  background: var(--bg);
+  color: var(--grey-700);
   padding: 6px 12px;
   border-radius: 8px;
 }
 
 .path-steps .arrow {
-  opacity: 0.6;
+  color: var(--grey-500);
   font-size: 12px;
 }
 
@@ -121,8 +123,8 @@ body.proto-hub {
   display: inline-flex;
   padding: 12px 20px;
   border-radius: 12px;
-  background: #fff;
-  color: var(--blue);
+  background: var(--blue);
+  color: var(--white);
   font-size: 15px;
   font-weight: 700;
   text-decoration: none;
@@ -686,27 +688,28 @@ body.proto-hub {
   color: var(--red);
 }
 
-/* Intro hero — index.html */
+/* Intro entry — index.html (quiet card, no full-bleed blue) */
 .intro-hero {
-  background: linear-gradient(135deg, #3182F6 0%, #1B64DA 100%);
-  color: var(--white);
+  background: var(--white);
+  color: var(--grey-900);
   border-radius: 20px;
   padding: 28px 32px;
   margin-bottom: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .intro-hero-main h2 {
   font-size: 22px;
   font-weight: 700;
   line-height: 1.35;
-  color: var(--white);
+  color: var(--grey-900);
   margin-bottom: 8px;
 }
 
 .intro-hero-main > p {
   font-size: 15px;
   line-height: 1.55;
-  opacity: 0.92;
+  color: var(--grey-700);
   max-width: 520px;
   margin-bottom: 20px;
 }
@@ -724,17 +727,18 @@ body.proto-hub {
   align-items: flex-start;
   gap: 4px;
   padding: 14px 16px;
-  background: var(--white);
+  background: var(--bg);
   color: var(--grey-900);
   border-radius: 14px;
   text-decoration: none;
   min-width: 0;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border: 1px solid transparent;
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
 
 .flow-entry-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  background: var(--blue-50);
+  border-color: rgba(49, 130, 246, 0.25);
 }
 
 .flow-entry-role {
