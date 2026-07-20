@@ -34,3 +34,6 @@ merge.html        ← 주최자: 히트맵 · 확정
 components.html  ← UI 참고
 docs/            ← 문제 · 프로세스 · 설계 결정
 ```
+
+## 회고
+[velog](https://velog.io/@daeya0406/PD-%ED%86%A0%EC%8A%A4-%ED%94%84%EB%A1%9C%EB%8D%95%ED%8A%B8-%EB%94%94%EC%9E%90%EC%9D%B4%EB%84%88%EC%B1%8C%EB%A6%B0%EC%A7%80-2026)
